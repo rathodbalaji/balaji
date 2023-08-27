@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.menubar{
+    background-image: linear-gradient( black, white);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.menubar .titlebar{
+    border: 1px solid black;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    opacity: 8px;
+    box-shadow: 2px 0 10px white;
+}
+.titlebar ul{
+    list-style: none;
+    margin-top: 2;
+}
+.titlebar ul li{
+    display: inline;
+    padding: 4px 10px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+.titlebar ul li a{
+    color: white;
+}
+.titlebar #email{
+    font-size: 16px;
+}
+.titlebar ul  #time{
+    float: right; 
+    font-size: 16px; 
+}
+.subtitlebar{
+    width: 100%;
+    height: 40px;
+}
+.subtitlebar ul{
+list-style: none;
+}
+.subtitlebar ul li{
+    display: inline;
+    margin: 1px 25px;
+}
+.subtitlebar ul li a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.subtitlebar ul li 
+.hover :hover{
+    background-color: aqua;
+    border: 1px solid lightblue;
+    box-shadow: 3px white;
+    transform: translateY(-5px);
+}
+ul li input{
+    margin-right: 20px;
+    padding: 5px 64px;
+    font-size: 15px;
+    margin-top: 40px;
+    border: 1px solid white;
+    border-right: none;
+    border-radius: 10px; color: black;
+    background: transparent;
+    color: white;
+    text-align: center;
+}
+
+ul ul{
+    display: none;
+}
+.Booking{
+    vertical-align: middle;
+}
+.Booking a{
+    border: 1px solid black;
+    background-color: lightseagreen;
+    padding: 6px 8px;
+    border-radius: 4px;
+    box-shadow: 20px white;
+}
+ div .icon{
+    color: white;
+    opacity: 1;
+    font-size: 15px;
+    margin-top: -22px;
+    margin-left: 900px;
+    font-weight: lighter;
+
+}
+.delicious{
+    text-align: center; 
+    margin-top: 40px;
+}
+.delicious p{
+    text-shadow:  1px 2px lightblue ;
+    color: white;
+    font-size: 40px ;
+}
+.delicious h1{
+    text-shadow: 5px blue;
+    color: orangered;
+    font-size: 60px;
+}
+.image{
+    margin: 5px 20px;
+    width: 200px;
+    float: left;
+    line-height: 20px;
+}
+.image img{
+    border: 1px solid black;
+    border-radius: 50%;
+    transition: 1.5s;
+}
+.image img:hover{
+    border: 1px solid black;
+    transform: rotate(10deg);
+    box-shadow: 5px 5px 5px 5px white, 7px 7px 7px 7px lightblue;
+    width: 120px;
+    height: 120px;
+
+}
+.image .desc{
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: green;
+}
+.container .footer{
+    width: 300px;
+    background-color: black;
+    border: 1px solid black;
+    float: left;
+    margin: 20px 60px;
+}
+.footer{
+    border: 1px solid black;
+    border-radius: 10px;
+    transition:  1.5s;
+    padding: 2px;
+}
+.footer:hover{
+    transform: translateX(-50px);
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
